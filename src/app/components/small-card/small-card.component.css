@@ -21,6 +21,11 @@
   font-size: 32px;
 }
 
+.small-card__title {
+  display: flex;
+  justify-content: center;
+}
+
 .container__small-card__separator {
   margin-top: 10px;
 }
