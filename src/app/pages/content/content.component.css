@@ -9,8 +9,6 @@
   align-items: center;
 }
 
-/* .content__cover {
-} */
 
 .content__cover > img {
   width: 500px;
@@ -26,4 +24,5 @@
 
 .content__description > p {
   color: rgb(198, 197, 197);
+  margin-top: 20px;
 }
