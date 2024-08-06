@@ -9,7 +9,6 @@
   align-items: center;
 }
 
-
 .content__cover > img {
   width: 500px;
   min-width: 500px;
@@ -18,11 +17,33 @@
   border: 5px solid grey;
 }
 
+.content__button {
+  background-color: white;
+  border: 2px solid black;
+  width: 100px;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.content__button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+}
+
 .content__description { 
   margin-top: 15px;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content__description > p {
   color: rgb(198, 197, 197);
   margin-top: 20px;
+  text-align: justify;
 }

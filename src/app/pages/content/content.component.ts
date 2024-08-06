@@ -16,14 +16,14 @@ export class ContentComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(value => {
+    this.route.paramMap.subscribe((value) => {
       this.id = value.get('id') || '0';
       this.setValuesToComponent(this.id);
     });
   }
 
   setValuesToComponent(id: string) {
-    const result = dataFake.filter(article => article.id === id)[0];
+    const result = dataFake.filter((article) => article.id === id)[0];
 
     if (result) {
       this.contentTitle = result.title;
